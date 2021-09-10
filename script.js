@@ -24,10 +24,8 @@
 
         // se il numeroUtente è diverso dagli altri va inserito
             
-            if( ( !numeroUtente != numeroUtente ) 
-                (! arrayUtente.includes(numeroUtente))) {
-                arrayUtente.push(numeroUtente);
-            }
+            if( (!numeroUtente != numeroUtente) && (!arrayUtente.includes(numeroUtente)) ) {
+                arrayUtente.push(numeroUtente);}
         }
 
         let numeriEsatti = []; // array che contiene i numeri esatti
@@ -40,6 +38,6 @@
             }
         }
         // infine mostro i numeri esatti con un alert
-        alert('Hai indovinato: ' + rightNumbers.length + ' numeri, che sono: ' + rightNumbers);
+        alert('Hai indovinato: ' + numeriEsatti.length + ' numeri, che sono: ' + numeriEsatti);
     }
     , 5000);
