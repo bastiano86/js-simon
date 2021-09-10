@@ -24,7 +24,7 @@
 
         // se il numeroUtente è diverso dagli altri va inserito
             
-            if( (!numeroUtente != numeroUtente) && (!arrayUtente.includes(numeroUtente)) ) {
+            if((!arrayUtente.includes(numeroUtente)) ) {
                 arrayUtente.push(numeroUtente);}
         }
 
